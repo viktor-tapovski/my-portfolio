@@ -1,0 +1,46 @@
+@import '~style/helpers';
+
+.header {
+	align-items: center;
+    position: fixed;
+    justify-content: flex-end;
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    background: transparent;
+    z-index: 50;
+
+	// h1 {
+	// 	float: left;
+	// 	margin: 0;
+	// 	padding: 0 15px;
+	// 	font-size: 24px;
+	// 	line-height: 56px;
+	// 	font-weight: 400;
+	// 	color: #FFF;
+	// }
+
+	nav {
+		float: right;
+		font-size: 100%;
+
+		a {
+			padding: 0 25px;
+			min-width: 60px;
+			text-align: center;
+			// background: hsla(0,0%,100%,0);
+			text-decoration: none;
+			color: @color-medium-gray;
+			will-change: background-color;
+			font-size: 12px;
+			text-transform: uppercase;
+			font-weight: 500;
+
+			&:hover, &:active {
+				color: @color-light-gray;
+			}
+		}
+	}
+}

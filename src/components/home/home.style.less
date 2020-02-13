@@ -1,0 +1,76 @@
+@import '~style/helpers';
+
+.page__home {
+	// padding: 56px 20px;
+	min-height: 100%;
+	width: 100%;
+	display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    grid-row-gap: 20px;
+    align-items: center;
+    padding-top: 56px;
+	background: @bg-color-gradient;
+}
+
+.content__bio {
+	color: @color-medium-gray;
+	font-size: 13px;
+	line-height: 24px; 
+	padding: 15%;
+	word-spacing: 2px;
+	// text-align: justify; 
+	text-justify: inter-word;
+}
+
+.content__bio__title {
+	color: @color-light-gray;
+	font-family: @font-montserrat;
+	font-weight: 900;
+	font-size: 60px;
+    letter-spacing: 3px;
+}
+
+.content__bio__button__contact {
+	width: 150px;
+	height: 40px;
+	outline: 1px transparent;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	font-family: @font-lato;
+	letter-spacing: 0;
+	transition: .5 all ease;
+	background-image: @icon-planet;
+	background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+	background-position-x: 14px;
+	word-spacing: 1px;
+	
+	&:hover {
+		background: -webkit-linear-gradient(top, #40B0E3, #2DAAE3);
+		background: -moz-linear-gradient(top, #40B0E3, #2DAAE3);
+		background: linear-gradient(to bottom, #40B0E3, #2DAAE3);
+		outline: 1px solid #014B6D;
+		color: #FFFFFF;
+		
+		span {
+			font-weight: bold;
+		}
+	}
+}
+
+.content__bio__hero__image {
+	background-image: url('../../assets/images/portrait-nobg.png');
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
