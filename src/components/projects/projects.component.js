@@ -25,7 +25,7 @@ const Projects = props => {
 									class={style.projects__container__image}
 								/>
 							</div>
-						</a>
+						</a> 
 					</div>
 				))}
 			</div>

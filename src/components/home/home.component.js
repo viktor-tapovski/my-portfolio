@@ -24,6 +24,6 @@ const Home = props => {
 			<div class={style.content__bio__hero__image}></div>
 		</div>
 	);
-};
+}; 
 
 export default Home;

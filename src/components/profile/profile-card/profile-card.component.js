@@ -10,7 +10,7 @@ const ProfileCard = ({ detail: { company, position, website, startDate, summary 
 	// 	startDate: string,
 	// 	summary: string,
 	// 	highlights: [],
-	// }
+	// } 
 	return (
         <div>
             <li class={style.profile__card__item} data-date={startDate}>

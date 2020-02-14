@@ -18,7 +18,7 @@ const Profile = props => {
 				{props.work.map(detail => (
 					<ProfileCard detail={detail} />
 				))}
-			</ul>
+			</ul> 
 		</div>
 	);
 };
