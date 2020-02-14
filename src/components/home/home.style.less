@@ -5,12 +5,12 @@
 	min-height: 100%;
 	width: 100%;
 	display: grid;
-    grid-template-columns: repeat(2,1fr);
     grid-gap: 10px;
     grid-row-gap: 20px;
     align-items: center;
     padding-top: 56px;
 	background: @bg-color-gradient;
+	transition: 250ms ease;
 }
 
 .content__bio {
@@ -28,32 +28,52 @@
 	font-family: @font-montserrat;
 	font-weight: 900;
 	font-size: 60px;
-    letter-spacing: 3px;
+	line-height: normal;
 }
 
 .content__bio__button__contact {
 	width: 150px;
 	height: 40px;
-	outline: 1px transparent;
+	outline: none;
 	border: none;
 	border-radius: 3px;
 	font-size: 14px;
 	font-family: @font-lato;
 	letter-spacing: 0;
-	transition: .5 all ease;
-	background-image: @icon-planet;
-	background-size: 16px;
-    background-repeat: no-repeat;
-    background-position-y: center;
-	background-position-x: 14px;
+	transition: 250ms ease;
+	position: relative;
 	word-spacing: 1px;
+
+	&:before {
+		content: "";
+		position: absolute;
+		background-image: @icon-planet;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-size: 16px;
+		background-repeat: no-repeat;
+		background-position-y: center;
+		background-position-x: 14px;
+	}
 	
 	&:hover {
-		background: -webkit-linear-gradient(top, #40B0E3, #2DAAE3);
-		background: -moz-linear-gradient(top, #40B0E3, #2DAAE3);
-		background: linear-gradient(to bottom, #40B0E3, #2DAAE3);
-		outline: 1px solid #014B6D;
-		color: #FFFFFF;
+		// background: -webkit-linear-gradient(top, #40B0E3, #2DAAE3);
+		// background: -moz-linear-gradient(top, #40B0E3, #2DAAE3);
+		// background: linear-gradient(to bottom, #40B0E3, #2DAAE3);
+		// outline: 1px solid #014B6D;
+		// color: #FFFFFF;
+		box-shadow:inset 0px 1px 0px 0px #f0f7fa;
+		background:linear-gradient(to bottom, #40B0E3 5%, #2DAAE3 100%);
+		background-color:#33bdef;
+		border-radius:3px;
+		border:1px solid #057fd0;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		text-decoration:none;
+		text-shadow:0px 1px 1px #5b6178;
 		
 		span {
 			font-weight: bold;
@@ -73,4 +93,36 @@
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH";
+}
+
+@media (min-width: 320px) {
+
+	.page__home {
+		grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	}
+
+	.content__bio__title {
+		font-size: 40px;
+	}	
+
+	.content__bio__hero__image {
+		display: none;
+	}
+}
+
+@media (min-width: 690px) {
+
+	.page__home {
+		grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+	}
+
+	.content__bio__hero__image {
+		display: block;
+	}
+}
+
+@media (min-width: 768px) {
+	.page__home {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }

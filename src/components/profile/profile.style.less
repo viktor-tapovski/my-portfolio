@@ -3,6 +3,42 @@
 .profile {
 	padding: 56px 20px;
 	min-height: 100%;
-	width: 100%;
+    width: 100%;
 	background-image: linear-gradient(to bottom, #151820, #1a1d26, #20232d, #262833, #2c2e3a);
+}
+
+.profile__timeline {
+    border-left: 5px dotted @color-deep-orange;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    // background: rgba(255, 255, 255, 0.03);
+    color: rgba(255, 255, 255, 0.8);
+    margin: 50px auto;
+    letter-spacing: 0.5px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    font-weight: 100;
+    max-width: 50%;
+}
+
+.profile__title {
+    color: @color-light-gray;
+}
+
+@media (min-width: 320px) {
+    .profile__timeline {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .profile__timeline {
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

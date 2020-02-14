@@ -1,0 +1,276 @@
+{
+  "basics": {
+    "name": "Viktor",
+    "label": "Detail-oriented front-end developer with a passion for excellence. I am a conscientious, self-taught learner who develops Web solutions using the best practices. I take great pride and responsibility in my work and I always strive to learn new technologies to expand and improve my knowledge.",
+    "picture": "",
+    "email": "",
+    "phone": "",
+    "website": "",
+    "summary": "Internet",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Barracuda FX",
+      "position": "Frontend Developer",
+      "website": "",
+      "startDate": "2018-01-01",
+      "summary": "Developing reusable components and implementing them system wide • Maintaining services and implementing new features • Working closely with designers and product owners",
+      "highlights": []
+    },
+    {
+      "company": "Personal Programmer",
+      "position": "Frontend Developer",
+      "website": "",
+      "startDate": "2016-04-01",
+      "summary": "Developed views/templates on top of Laravel, using the Blade templating engine • Implemented new features in view templates for Magento e-commerce • Worked through cross browser compatibility issues with layout and styles • Used preprocessors such as LESS/SASS and task runner tools for optimization • Implemented new functionality using jQuery and DOM manipulation • Collaborated with User Interface and User Experience teams.",
+      "highlights": [],
+      "endDate": "2018-01-01"
+    },
+    {
+      "company": "RE:AKTIV",
+      "position": "Web Designer",
+      "website": "",
+      "startDate": "2015-08-01",
+      "summary": "• Front end development utilizing HTML5, CSS3 and jQuery\t • Developing prototypes and high quality mock-ups • Create browser and platform compatible CSS • Front end web development for proprietary ASP / ASP.NET web apps.",
+      "highlights": [],
+      "endDate": "2016-04-01"
+    },
+    {
+      "company": "Webski Solutions",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "2014-05-01",
+      "summary": "• Created and maintained the front-end web apps using Javascript, HTML, CSS, PHP (Wordpress). • Implemented CMS and Ecommerce based dynamic sites with open source platforms such as Wordpress",
+      "highlights": [],
+      "endDate": "2014-07-01"
+    },
+    {
+      "company": "Purecanvas.com",
+      "position": "Graphic Designer",
+      "website": "",
+      "startDate": "2013-04-01",
+      "summary": "•  Graphic design •  UI/UX Design •  Designed web and mobile app mock-ups •  Branding",
+      "highlights": [],
+      "endDate": "2015-05-01"
+    },
+    {
+      "company": "Eriden LLC",
+      "position": "Freelance Web Developer",
+      "website": "",
+      "startDate": "2013-04-01",
+      "summary": "• Designed web-site and mobile app mock-ups • Implemented mock-ups and designs into working websites • Performed browser testing and debugging • Used technologies: HTML, CSS, Javascript, PHP(Wordpress)",
+      "highlights": [],
+      "endDate": "2014-03-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Univerza v Ljubljani",
+      "area": "",
+      "studyType": "Master's Degree",
+      "startDate": "2012-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2013-01-01"
+    },
+    {
+      "institution": "Univerzitet 'Sv. Kliment Ohridski' vo Bitola",
+      "area": "",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2008-01-01",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2012-01-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Angular 4",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TypeScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Front-end Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "User Interface Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Responsive Web Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "WordPress",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "jQuery",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bootstrap",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SASS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Illustrator",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Photoshop",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cascading Style Sheets (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe Photoshop",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Foundation Framework",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS3",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "LESS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Sketch 3",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cross-browser Compatibility",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Haml",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jade",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Webpack",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gulp.js",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Macedonian",
+      "fluency": "Native or bilingual proficiency"
+    },
+    {
+      "language": "Serbian",
+      "fluency": "Native or bilingual proficiency"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Se Za Hrana",
+      "startDate": "2017",
+      "summary": "Wordpress blog development project for food recipes and healthy living tips. Very simple and minimalistic design. Used web technologies: JavaScript, PHP, HTML & CSS.",
+      "url": "http://sezahrana.mk",
+      "imageUrl": "../assets/images/sezahrana.png"
+    },
+    {
+      "name": "My Creative Team",
+      "startDate": "2016",
+      "summary": " MyCreativeTeam is a brand of the EYECON Media Marketing Agency.",
+      "url": "http://www.mycreativeteam.com/",
+      "imageUrl": "../assets/images/mycreativeteam.png"
+    }
+  ]
+}
