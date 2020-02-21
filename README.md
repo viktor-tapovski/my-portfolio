@@ -1,15 +1,6 @@
-# My Portfolio / Personal Portfoio project based on Preact
+# My Portfolio / Personal Portfolio project based on Preact
 
 ---
-
-# Quick-Start Guide
-
-- [Installation](#installation)
-- [Structure](#structure)
-- [CSS Modules](#css-modules)
-- [Handling URLS](#handling-urls)
-- [React Compatibility](#react-compatibility)
-
 
 ## Installation
 
